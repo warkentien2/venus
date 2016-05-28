@@ -1,0 +1,75 @@
+body {
+  background: #DAD8D9;
+}
+#frame, .in-frame {
+  margin: 0;
+  padding: 0;
+}
+#frame {
+  position: absolute;
+  /* left: 300px; position frame as you please */
+  /* top: 300px; position frame as you please */
+  height: 250px;
+  width: 300px;
+}
+.no-overflow {
+  overflow: hidden;
+}
+.in-frame {
+  position: relative;
+  left: 0;
+}
+.in-frame#cta {
+  top: 225px;
+  z-index: 3;
+}
+.in-frame#girl-bottom {
+  top: -29px;
+}
+.in-frame#girl-strip {
+  top: -283px;
+}
+.in-frame#girl-top {
+  top: -538px;
+}
+.in-frame#ice1-wrapper {
+  top: -794px;
+}
+.in-frame#ice2-wrapper {
+  top: -1045px;
+}
+.in-frame#ice3-wrapper {
+  top: -1322px;
+}
+.in-frame#ice-top-wrapper {
+  top: -1554px;
+}
+.in-frame#logo {
+  top: -1808px;
+}
+.razor {
+  transform: scale(0.77, 0.77);
+  z-index: 2;
+}
+.in-frame#razor1 {
+  top: -2285px;
+  left: -260px;
+}
+.in-frame#razor2 {
+  top: -2720px;
+  left: 360px;
+}
+.in-frame#razor-top {
+  top: -3615px;
+  left: -340px;
+  transform: scale(0.77, 0.77) rotate(-50deg);
+}
+.in-frame#razor3 {
+  top: -3875px;
+  left: 350px;
+  transform: scale(0.77, 0.77) rotate(60deg);
+}
+.in-frame#razor-ending {
+  top: -4237px;
+  z-index: 4;
+}

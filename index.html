@@ -8,7 +8,7 @@
     <title>warkentien2's starter page</title>
 
     <!-- ENTIRE IMPORTS STARTS HERE -->
-
+    <link rel="stylesheet" href="assets/styles/venusstylesheet.css" />
     <!-- ENTIRE IMPORTS ENDS HERE -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,7 +20,35 @@
   </head>
   <body>
     <!-- ENTIRE CODE STARTS HERE -->
-    <h1>warkentien2's starter code</h1>
+    <!-- all animations are relative to #frame, feel free to reposition this div -->
+    <div id="frame" class="no-overflow" alt="animation done by warkentien2">
+      <img id="cta" class="in-frame" src="assets/images/cta.png" />
+      <img id="girl-bottom" class="in-frame" src="assets/images/girlBottom.png" />
+      <img id="girl-strip" class="in-frame" src="assets/images/girlStrip.png" />
+      <img id="girl-top" class="in-frame" src="assets/images/girlTop.png" />
+      <div id="ice1-wrapper" class="in-frame no-overflow">
+        <img id="ice1" class="in-frame" src="assets/images/ice1.png" />
+      </div>
+      <div id="ice2-wrapper" class="in-frame no-overflow">
+        <img id="ice2" class="in-frame" src="assets/images/ice2.png" />
+      </div>
+      <div id="ice3-wrapper" class="in-frame no-overflow">
+        <img id="ice3" class="in-frame" src="assets/images/ice3.png" />
+      </div>
+      <div id="ice-top-wrapper" class="in-frame no-overflow">
+        <img id="ice-top" class="in-frame" src="assets/images/iceTop.png" />
+      </div>
+      <img id="logo" class="in-frame" src="assets/images/logo.png" />
+      <img id="razor1" class="in-frame razor" src="assets/images/razor.png" />
+      <img id="razor2" class="in-frame razor" src="assets/images/razor.png" />
+      <img id="razor-top" class="in-frame razor" src="assets/images/razor.png" />
+      <img id="razor3" class="in-frame razor" src="assets/images/razor.png" />
+      <img id="razor-ending" class="in-frame" src="assets/images/razorEnding.png" />
+    </div>
     <!-- ENTIRE CODE ENDS HERE -->
+
+    <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="assets/bower_components/gsap/src/minified/TweenMax.min.js"></script>
+    <script src="assets/scripts/venusscript.js"></script>
   </body>
 </html>
