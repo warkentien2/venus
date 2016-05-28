@@ -32,16 +32,16 @@ body {
 .in-frame#girl-top {
   top: -538px;
 }
-.in-frame#ice1 {
+.in-frame#ice1-wrapper {
   top: -794px;
 }
-.in-frame#ice2 {
+.in-frame#ice2-wrapper {
   top: -1045px;
 }
-.in-frame#ice3 {
+.in-frame#ice3-wrapper {
   top: -1322px;
 }
-.in-frame#ice-top {
+.in-frame#ice-top-wrapper {
   top: -1554px;
 }
 .in-frame#logo {
