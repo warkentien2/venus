@@ -51,6 +51,6 @@ An arcTouch CSS Animation test project
 </ol>
 <h4>Editable Banner Placement</h4>
 <ul>
-<li>images were relatively positioned</li>
+<li>images were positioned relative to #frame</li>
 <li>move #frame around to test</li>
 </ul>
