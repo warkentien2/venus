@@ -32,13 +32,13 @@ body {
 .in-frame#girl-top {
   top: -538px;
 }
-.in-frame#ice1-wrapper {
+.in-frame#ice-first-shave-wrapper {
   top: -794px;
 }
-.in-frame#ice2-wrapper {
+.in-frame#ice-second-shave-wrapper {
   top: -1045px;
 }
-.in-frame#ice3-wrapper {
+.in-frame#ice-bottom-wrapper {
   top: -1322px;
 }
 .in-frame#ice-top-wrapper {
@@ -51,11 +51,11 @@ body {
   transform: scale(0.77, 0.77);
   z-index: 2;
 }
-.in-frame#razor1 {
+.in-frame#razor-first-shave {
   top: -2285px;
   left: -260px;
 }
-.in-frame#razor2 {
+.in-frame#razor-second-shave {
   top: -2720px;
   left: 360px;
 }
@@ -64,7 +64,7 @@ body {
   left: -340px;
   transform: scale(0.77, 0.77) rotate(-50deg);
 }
-.in-frame#razor3 {
+.in-frame#razor-bottom {
   top: -3875px;
   left: 350px;
   transform: scale(0.77, 0.77) rotate(60deg);
