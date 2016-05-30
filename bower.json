@@ -1,0 +1,21 @@
+{
+  "name": "assets",
+  "homepage": "https://github.com/warkentien2/venus",
+  "authors": [
+    "warkentien2 <philip.dw2@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "gsap": "^1.18.5"
+  }
+}
