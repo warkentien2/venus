@@ -29,19 +29,9 @@ An arcTouch CSS Animation test project
 </ol>
 <h4>Installing Dependencies</h4>
 <ol>
-<li>enter assets folder
-  <ul>
-    <li>$ cd assets</li>
-  </ul>
-</li>
 <li>install bower_components
   <ul>
     <li>$ bower install</li>
-  </ul>
-</li>
-<li>return to project's root directory
-  <ul>
-    <li>$ cd ..</li>
   </ul>
 </li>
 </ol>
